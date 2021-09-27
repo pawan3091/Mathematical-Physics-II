@@ -103,23 +103,3 @@ error=np.array(d)-np.array(c)
 print("# Comparison Table")
 Data={"Ques":j,"Scipy":d,"My function":c,"Error":error}
 print(pd.DataFrame(Data))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
