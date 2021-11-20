@@ -41,10 +41,6 @@ def Clmn_r(a,rmv):
             new_a[i][j-1]=a[i][j]
     return new_a
     
-    
-    
-    
-
 def Gauss_Elimination(a):
     n=len(a) 
     m=int(np.size(a)/len(a))
@@ -86,7 +82,6 @@ Mat=[[-4,1,0,1],
 #Mat=[[6,8,1,3],[3,7,9,1],[4,6,1,2],[3,3,8,1]]   #overdetermined
 #Mat=[[5,7,2,3,6],[8,4,6,1,1,0],[7,4,5,6,7]]        #undetermined
     
-
 n=len(Mat)
 m=int(np.size(Mat)/n)
 coeff_mat=np.zeros((n,m-1))
@@ -116,6 +111,3 @@ elif(m-1<r1):
     print("Overdetermined")
 else:
     print("Underdetermined")
-    
-            
-        
